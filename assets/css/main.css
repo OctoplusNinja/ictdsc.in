@@ -1389,14 +1389,14 @@ h1 {
 
 /* Inforamation Bar */
 #information-bar {
-  background: #fff;
+  background: #161e26;
   position: relative;
 }
 
 #information-bar .inforation-wrapper {
   background: #fff;
   border-radius: 4px;
-  box-shadow: 0 8px 24px #e2e8ed;
+  box-shadow: 0 2px 8px #e2e8ed;
   margin-bottom: -35px;
   margin-top: -35px;
   padding: 45px 0;
