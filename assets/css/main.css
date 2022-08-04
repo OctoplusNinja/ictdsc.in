@@ -716,6 +716,7 @@ a.back-to-top:focus {
 
 .navbar {
   padding: 0;
+  /* min-height: 58px; */
 }
 
 .navbar li.active a.nav-link {
@@ -2442,8 +2443,7 @@ footer {
 
 #hero-area .contents .head-title {
   color: #fff;
-  font-size: 48px;
-  line-height: 48px;
+  font-size: 3rem;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 22px;
