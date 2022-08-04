@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:500,700');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   overflow-x: hidden;
 }
@@ -854,7 +861,8 @@ a.back-to-top:focus {
   }
 }
 
-#about {
+#about,
+#objective {
   background: #f6f9f9;
 }
 
@@ -864,7 +872,6 @@ a.back-to-top:focus {
 }
 
 .about-content > div {
-  vertical-align: middle;
   display: table-cell;
 }
 
