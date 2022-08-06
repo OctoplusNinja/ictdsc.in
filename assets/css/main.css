@@ -1351,6 +1351,10 @@ h1 {
   color: #ff4a67;
   margin-right: 5px;
 }
+.schedule .card-body ul li i{
+  font-size: 16px;
+  color: #ff4a67;
+}
 
 .accordion .card {
   border-radius: 0px;
