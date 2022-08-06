@@ -1238,7 +1238,7 @@ h1 {
   color: #fff;
 }
 
-.schedule .nav-tabs .nav-item.show .nav-link:before,
+/* .schedule .nav-tabs .nav-item.show .nav-link:before,
 .schedule .nav-tabs .nav-link.active:before {
   content: '';
   position: absolute;
@@ -1247,7 +1247,7 @@ h1 {
   border-width: 12px;
   border-style: solid;
   border-color: #ff4a67 transparent transparent transparent;
-}
+} */
 
 .schedule .item-text {
   border-radius: 4px;

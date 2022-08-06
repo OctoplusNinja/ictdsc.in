@@ -37,6 +37,7 @@ ul li {
 
 #committee .row .text-res {
   text-align: right;
+  font-weight: bold;
 }
 
 @media (max-width: 991px) {
