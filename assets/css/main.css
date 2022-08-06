@@ -894,7 +894,7 @@ a.back-to-top:focus {
   font-weight: 400;
   letter-spacing: 1px;
 }
-.about-content .about-text h5 span{
+.about-content .about-text h5 span {
   background-color: #f5c367;
 }
 
@@ -2194,9 +2194,6 @@ footer {
 /* ==========================================================================
    Countdown Style Start
    ========================================================================== */
-#count {
-  background: #f6f9f9;
-}
 
 #count .count-wrapper {
   background-image: linear-gradient(65deg, #ff4d79 0, #ff809f 100%);
