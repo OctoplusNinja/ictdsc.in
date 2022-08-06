@@ -11,3 +11,36 @@
   margin-bottom: 10px;
   letter-spacing: 0.3rem;
 }
+
+ul {
+  list-style: outside none none;
+}
+
+ul a {
+  color: #fff;
+}
+
+ul a:hover {
+  color: #ff4a67;
+}
+
+ul li {
+  display: inline-block;
+  color: #ff4a67;
+}
+
+.about-content .about-text h6 {
+  line-height: normal !important;
+  font-weight: 600 !important;
+  margin-top: 0 !important;
+}
+
+#committee .row .text-res {
+  text-align: right;
+}
+
+@media (max-width: 991px) {
+  #committee .row .text-res {
+    text-align: left;
+  }
+}
