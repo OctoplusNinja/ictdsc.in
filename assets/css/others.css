@@ -1,3 +1,13 @@
+.hero-area-bg-committee {
+  background: url(../img/background/committee.jpg) no-repeat;
+  background-size: cover;
+}
+
+.hero-area-bg-submission {
+  background: url(../img/background/submission.jpeg) no-repeat;
+  background-size: cover;
+}
+
 #hero-area .content {
   padding: 160px 20px 160px;
   height: 350px;
