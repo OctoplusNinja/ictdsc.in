@@ -52,13 +52,13 @@ ul li {
   }
 }
 
-.container h5 {
+#submission .container h5 {
   font-size: 1.25rem;
   width: 800px;
   margin: auto;
 }
 
-.container p {
+#submission .container p {
   font-size: 1.125rem;
   width: 800px;
   margin: auto;
