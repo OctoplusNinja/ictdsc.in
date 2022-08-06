@@ -1,0 +1,13 @@
+#hero-area .content {
+  padding: 160px 20px 160px;
+  height: 350px;
+}
+
+#hero-area .content .head-title {
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 0.3rem;
+}
