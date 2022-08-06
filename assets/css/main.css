@@ -1290,6 +1290,7 @@ h1 {
   -ms-flex: 0 0 18%;
   flex: 0 0 18%;
   max-width: 18%;
+  width: 200px;
 }
 
 .schedule .card-header {
