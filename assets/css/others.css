@@ -29,19 +29,38 @@ ul li {
   color: #ff4a67;
 }
 
-.about-content .about-text h6 {
-  line-height: normal !important;
-  font-weight: 600 !important;
-  margin-top: 0 !important;
+.about-content .about-text span {
+  font-size: 17px;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.about-content .about-text span span {
+  font-size: 17px;
+  display: inline-block;
 }
 
 #committee .row .text-res {
   text-align: right;
   font-weight: bold;
+  font-size: 17px;
 }
 
 @media (max-width: 991px) {
   #committee .row .text-res {
     text-align: left;
   }
+}
+
+.container h5 {
+  font-size: 1.25rem;
+  width: 800px;
+  margin: auto;
+}
+
+.container p {
+  font-size: 1.125rem;
+  width: 800px;
+  margin: auto;
+  margin-top: 10px;
 }
