@@ -64,13 +64,13 @@ ul li {
 
 #submission .container h5 {
   font-size: 1.25rem;
-  width: 800px;
+  max-width: 800px;
   margin: auto;
 }
 
 #submission .container p {
   font-size: 1.125rem;
-  width: 800px;
+  max-width: 800px;
   margin: auto;
   margin-top: 10px;
 }
