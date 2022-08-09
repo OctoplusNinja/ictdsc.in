@@ -882,7 +882,7 @@ a.back-to-top:focus {
 }
 
 .about-content .about-text h5 span,
-.about-content .about-text span span {
+.about-content .about-text span span{
   background-color: #f5c367;
 }
 
@@ -930,7 +930,7 @@ a.back-to-top:focus {
   z-index: 2;
 }
 
-.ready-to-play:before {
+/* .ready-to-play:before {
   content: '';
   background-image: linear-gradient(0deg, #ff4d79 0, #ff809f 100%);
   position: absolute;
@@ -941,7 +941,7 @@ a.back-to-top:focus {
   height: 100%;
   z-index: 0;
   opacity: 0.7;
-}
+} */
 
 video {
   position: absolute;

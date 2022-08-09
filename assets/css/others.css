@@ -44,6 +44,22 @@ ul li {
   margin-bottom: 4px;
   display: block;
 }
+.about-content .about-text ul li span {
+  display: inline-block;
+  background-color: #f5c367;
+}
+.about-content .about-text ul li {
+  color: #212121;
+  font-size: 17px;
+  margin-bottom: 4px;
+  /* display: block; */
+  list-style-type: disc;
+  display: list-item;
+}
+.about-content .about-text ul{
+  /* display: block; */
+  list-style-type: disc;
+}
 
 .about-content .about-text span span {
   font-size: 17px;
