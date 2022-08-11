@@ -44,26 +44,30 @@ ul li {
   margin-bottom: 4px;
   display: block;
 }
+
 .about-content .about-text ul li span {
   display: inline-block;
   background-color: #f5c367;
 }
+
 .about-content .about-text ul li {
   color: #212121;
   font-size: 17px;
   margin-bottom: 4px;
-  /* display: block; */
   list-style-type: disc;
   display: list-item;
+  text-transform: capitalize;
 }
-.about-content .about-text ul{
-  /* display: block; */
+
+.about-content .about-text ul {
   list-style-type: disc;
 }
 
-.about-content .about-text span span {
+.about-content .about-text span span,
+.about-content .about-text ul span {
   font-size: 17px;
   display: inline-block;
+  text-transform: lowercase;
 }
 
 #committee .row .text-res {
