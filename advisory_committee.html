@@ -1,449 +1,752 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Committee | ICTDsC-2023 | SIT</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/nivo-lightbox.css"
+    />
     <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/others.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
-</head>
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Committee | ICTDsC-2023 | SIT</title>
+  </head>
 
-<body>
+  <body>
     <header id="header-wrap">
-        <nav class="navbar navbar-expand-lg bg-inverse fixed-top scrolling-navbar">
-            <div class="container">
-                <a href="/" class="navbar-brand"><img src="assets/img/logo.png" alt="logo" /></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="lni-menu"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav mr-auto w-100 justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/"> Home </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/index.html#about"> About </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/index.html#deets"> Event Details </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/submission.html"> Submission </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#gallery"> Gallery </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                                aria-expanded="false">
-                                Committee </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="/organising_committee.html">Organising Committee</a>
-                                <a class="dropdown-item" href="/advisory_committee.html">Advisory Committee</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact"> Contact </a>
-                        </li>
-                    </ul>
+      <nav
+        class="navbar navbar-expand-lg bg-inverse fixed-top scrolling-navbar"
+      >
+        <div class="container">
+          <a href="/" class="navbar-brand"
+            ><img src="assets/img/logo.png" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="lni-menu"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html"> Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html#about"> About </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#deets"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse.show"
+                >
+                  Event Details
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/submission.html"> Submission </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse.show"
+                >
+                  Gallery
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Committee
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="/organising_committee.html"
+                    >Organising Committee</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    href="#committee"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse.show"
+                    >Advisory Committee</a
+                  >
                 </div>
-            </div>
-        </nav>
-
-        <div id="hero-area" class="hero-area-bg-committee">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row mb-2 justify-content-center">
-                    <div class="col-lg-9 col-sm-12">
-                        <div class="content text-center">
-                            <h2 class="head-title">ORGANIZING COMMITTEE</h2>
-                            <ul>
-                                <li>
-                                    <a class="active" href="/">Home</a>
-                                </li>
-                                //
-                                <li>Organizing Committee</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#contact"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse.show"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+
+      <div id="hero-area" class="hero-area-bg-committee">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row mb-2 justify-content-center">
+            <div class="col-lg-9 col-sm-12">
+              <div class="content text-center">
+                <h2 class="head-title">ADVISORY COMMITTEE</h2>
+                <ul>
+                  <li>
+                    <a href="/">Home</a>
+                  </li>
+                  //
+                  <li>Advisory Committee</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <section id="committee" class="section-padding">
-        <div class="container mb-5">
-            <div class="row mb-4">
-                <div class="col text-res text-left">International Advisory Committee</div>
+      <div class="container pt-3">
+        <div class="row mb-2">
+          <div class="col-lg-4 col-md-12 col-xs-12 text-res">
+            International Advisory Committee
+          </div>
+          <div class="col-lg-8 col-md-12 col-xs-12">
+            <div class="about-content">
+              <div class="about-text">
+                <span
+                  >Rajkumar Buyya, CLOUDS Lab, School of Computing and
+                  Information Systems, The University of Melbourne,
+                  Australia.</span
+                >
+                <span>
+                  Prof. Chow Yen Desmond Sim, Feng Chia University, Department
+                  of Electrical Engineering, Taiwan
+                </span>
+                <span>
+                  Dr. Nabin Sharma, Professor Co-Director, Intelligent Drone
+                  Lab, Associate Professor, University of Technology, Sydney
+                </span>
+                <span>
+                  Ajith Abraham, Director - Machine Intelligence Research Labs
+                  (MIR Labs), Auburn, Washington, United States
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Aboul Ella Hassanien, Professor at Faculty of Computers
+                  and Information - Cairo University.
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Jemal Abawajy, Full Professor, Deakin University, Australia.
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Joel J. P. C. Rodrigues Professor, Federal University of Piauí
+                  (UFPI), Brazi.
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Sushmita Mitra, Full Professor (HAG) at the Machine
+                  Intelligence Unit of the Indian Statistical Institute,
+                  Kolkata. <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Padmanava Sen, Research Group Leader RF Design Enablement
+                  Group, Barkhausen Institut, Germany.
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Biswajit Sarkar, Department of Industrial Engineering,
+                  Yonsei University, Seoul, South Korea.
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Babu Sena Paul, University of Johannesburg, South Africa.
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Chuan-Ming Liu, National Taipei University of Technology,
+                  TAIWAN
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr.Korhan Cengiz, Trakya University, Turkey
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Rafael F. S. Caldeirinha, Departamento de Engenharia
+                  Electrotécnica, Leiria, Portugal
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Saurav Mallik, Harvard University, Boston, USA
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. SuzanaMiladić-Tešić, University of East Sarajevo, Republic
+                  of Srpska, Bosnia and Herzegovina
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Valentina Emilia Balas, University of Arad, Romania
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. VinayakumarRavi , Prince Mohammad Bin Fahd University,
+                  Saudi Arabia
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. ŽeljkoStević, University of East Sarajevo, Republic of
+                  Srpska, Bosnia and Herzegovina
+                </span>
+                <span>
+                  Mr. AtanuBanerjee , DXC Technology
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Mr. Sanjeev Singh, Hewlett Packard Enterprise, California USA
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+              </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <div class="about-content">
-                        <div class="about-text">
-                            <ul>
-                                <li>Rajkumar Buyya, CLOUDS Lab, School of Computing and Information Systems, The
-                                    University of Melbourne, Australia.</li>
-                                <li>Prof. Chow Yen Desmond Sim, Feng Chia University, Department of Electrical
-                                    Engineering, Taiwan</li>
-                                <li>Dr. Nabin Sharma, Professor Co-Director, Intelligent Drone Lab, Associate Professor,
-                                    University of Technology, Sydney</li>
-                                <li>Ajith Abraham, Director - Machine Intelligence Research Labs (MIR Labs), Auburn,
-                                    Washington, United States <span>&nbsp;(confirmation awaited)&nbsp;</span></li>
-                                <li>Dr. Aboul Ella Hassanien, Professor at Faculty of Computers and Information - Cairo
-                                    University. <span>&nbsp;(confirmation awaited)&nbsp;</span></li>
-                                <li>Jemal Abawajy, Full Professor, Deakin University, Australia.
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Joel J. P. C. Rodrigues Professor, Federal University of Piauí (UFPI), Brazi.
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Sushmita Mitra, Full Professor (HAG) at the Machine Intelligence Unit of the Indian
-                                    Statistical Institute, Kolkata. <span>&nbsp;(confirmation awaited)&nbsp;</span></li>
-                                <li>Dr. Padmanava Sen, Research Group Leader RF Design Enablement Group, Barkhausen
-                                    Institut, Germany. <span>&nbsp;(confirmation awaited)&nbsp;</span></li>
-                                <li>Dr. Biswajit Sarkar, Department of Industrial Engineering, Yonsei University, Seoul,
-                                    South Korea. <span>&nbsp;(confirmation awaited)&nbsp;</span></li>
-                                <li>Dr. Babu Sena Paul, University of Johannesburg, South Africa.
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr. Chuan-Ming Liu, National Taipei University of Technology, TAIWAN
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr.Korhan Cengiz, Trakya University, Turkey <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr. Rafael F. S. Caldeirinha, Departamento de Engenharia Electrotécnica, Leiria,
-                                    Portugal <span>&nbsp;(confirmation awaited)&nbsp;</span></li>
-                                <li>Dr. Saurav Mallik, Harvard University, Boston, USA <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr. SuzanaMiladić-Tešić, University of East Sarajevo, Republic of Srpska, Bosnia and
-                                    Herzegovina <span>&nbsp;(confirmation awaited)&nbsp;</span></li>
-                                <li>Dr. Valentina Emilia Balas, University of Arad, Romania <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr. VinayakumarRavi , Prince Mohammad Bin Fahd University, Saudi Arabia
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr. ŽeljkoStević, University of East Sarajevo, Republic of Srpska, Bosnia and
-                                    Herzegovina</li>
-                                <li>Mr. AtanuBanerjee , DXC Technology <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Mr. Sanjeev Singh, Hewlett Packard Enterprise, California
-                                    USA <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <div class="container mb-5">
-            <div class="row mb-4">
-                <div class="col text-res text-left">National Advisory Committee</div>
+        <div class="row mb-2">
+          <div class="col-lg-4 col-md-12 col-xs-12 text-res">
+            National Advisory Committee
+          </div>
+          <div class="col-lg-8 col-md-12 col-xs-12">
+            <div class="about-content">
+              <div class="about-text">
+                <span>
+                  Dr. Debashis De, Professor, Department of Computer Science &
+                  Engineering, MAKAUT
+                </span>
+                <span>
+                  Nabendu Chaki, Professor, Computer Science and Engineering
+                </span>
+                <span>
+                  Dr. Siddhartha Bhattacharyya, Principal, Rajnagar
+                  Mahavidyalaya, Birbhum, India
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Amlan Chakrabarti, University of Calcutta.
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Chinmay Chakraborty, Post-doc, SMIEEE, Assistant
+                  Professor, Electronics and Communication Engineering, Birla
+                  Institute of Technology, Mesra, Jharkhand, India
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Sanjipan Shekhar Roy, Associate Professor, VIT
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. Gautom Das, Professor, Cooch Behar Government
+                  Engineering College
+                </span>
+                <span>Prof. Dr. Subindu Kumar, IIT(ISM) Dhanbad</span>
+                <span>
+                  Dr. Ashis Sharma, Vice Chancellor, Khangchendzonga State
+                  University, Sikkim
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. A P Singh, NIT Meghalaya
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Abhilash Mishra , Maharashtra Institute of Technology,
+                  Aurangabad
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Ahmad Ali, IIT Patna
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. AjeyaJha ,SMIT
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Amit Rathi, Manipal University Jaipur
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Amretashis Sengupta, North Bengal University
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Ankan Bhattacharya, Mallabhum Institute of Technology
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Anurag Singh ,IIIT Naya Raipur
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span
+                  >Dr. Sudipta Chattapadhya, Professor, Mizoram University</span
+                >
+                <span>Dr. Debaprasad Das, Professor, Assam University</span>
+                <span
+                  >Dr. Anghusuman Sarkar, Professor, Kalayani University</span
+                >
+                <span>
+                  Prof. (Dr.) Malay Kumar Das , Professor, Dept. Of Physics ,
+                  N.B.U, Siliguri.
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span
+                  >Dr. Sanjib Bhattacharya, University of North Bengal.</span
+                >
+                <span>
+                  Dr. Mithun Chakraborty, Principal, Siliguri Institute of
+                  Technology
+                </span>
+                <span>
+                  Dr. Banani Adhikary (Das), Associate Professor, Siliguri
+                  Institute of Technology
+                </span>
+              </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <div class="about-content">
-                        <div class="about-text">
-                            <ul>
-                                <li>Dr. Debashis De, Professor, Department of Computer Science & Engineering, MAAKAUT
-                                </li>
-                                <li>Nabendu Chaki, Professor, Computer Science and Engineering</li>
-                                <li>Dr. Siddhartha Bhattacharyya, Principal, Rajnagar Mahavidyalaya, Birbhum, India
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr. Amlan Chakrabarti, University of Calcutta. <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr. Chinmay Chakraborty, Post-doc, SMIEEE, Assistant Professor, Electronics and
-                                    Communication Engineering, Birla Institute of Technology, Mesra, Jharkhand, India
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr. Sanjipan Shekhar Roy, Associate Professor, VIT <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Prof. Gautom Das, Professor, Cooch Behar Government Engineering College</li>
-                                <li>Prof. Dr. Subindu Kumar, IIT(ISM) Dhanbad</li>
-                                <li>Dr. Ashis Sharma, Vice Chancellor, Khangchendzonga State University, Sikkim
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr. A P Singh, NIT Meghalaya <span>&nbsp;(confirmation awaited)&nbsp;</span></li>
-                                <li>Dr. Abhilash Mishra , Maharashtra Institute of Technology, Aurangabad
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr. Ahmad Ali, IIT Patna <span>&nbsp;(confirmation awaited)&nbsp;</span></li>
-                                <li>Dr. AjeyaJha ,SMIT <span>&nbsp;(confirmation awaited)&nbsp;</span></li>
-                                <li>Dr. Amit Rathi, Manipal University Jaipur <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr. Amretashis Sengupta, North Bengal University <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr. Ankan Bhattacharya, Mallabhum Institute of Technology <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr. Anurag Singh ,IIIT Naya Raipur <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr. Sudipta Chattapadhya, Professor, Mizoram University</li>
-                                <li>Dr. Debaprasad Das, Professor, Assam University</li>
-                                <li>Dr. Anghusuman Sarkar, Professor, Kalayani University</li>
-                                <li>Prof. (Dr.) Malay Kumar Das , Professor, Dept. Of Physics , N.B.U, Siliguri.
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr. Sanjib Bhattacharya, University of North Bengal.</li>
-                                <li>Dr. Mithun Chakraborty, Principal, Siliguri Institute of Technology</li>
-                                <li>Dr. Banani Adhikary (Das), Associate Professor, Siliguri Institute of Technology
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <div class="container mb-5">
-            <div class="row mb-4">
-                <div class="col text-res text-left">Technical Program Committee</div>
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-xs-12 text-res">
+            Technical Program Committee
+          </div>
+          <div class="col-lg-8 col-md-12 col-xs-12">
+            <div class="about-content">
+              <div class="about-text">
+                <span>
+                  Dr. Bharat Bhushan, Academy Professor, The Ohio State
+                  University, Columbus, Ohio, USA
+                </span>
+                <span>
+                  Dr. Lalit Garg, Senior Lecturer, Computer Information Systems,
+                  Faculty of Information & Communication Technology
+                </span>
+                <span>
+                  Dr. Asit Kumar Das, Professor, Department of Computer Science
+                  and Technology, Indian Institute of Engineering Science and
+                  Technology, Shibpur, Howrah, West Bengal, India
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>Dr. Sudipta Chattapadhya, Mizoram University</span>
+                <span>Dr. Debaprasad Das, Assam University</span>
+                <span>Prof. Dr. Subindu Kumar, IIT(ISM) Dhanbad</span>
+                <span>
+                  Dr. Ashis Sharma, Vice Chancellor, Khangchendzonga State
+                  University, Sikkim
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. A P Singh, NIT Meghalaya
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Malay Kumar Das , Professor , Dept. Of Physics , N.B.U,
+                  Siliguri
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Sakuntala Gupta, Raiganj University College
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. Susanta Sinha Roy , Shiv Nadar University
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Sanjib Bhattacharya, Associate professor of HRDC & Physics
+                  , University of North Bengal.
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Ahmed A. Elngar, Scientific Innovation Research Group
+                  (SIRG) Director of Technological and Informatics Studies
+                  Center Beni-Suef University, Egypt
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Nilanjan Dey, Techno India, India
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr .Loitongbam Suraj kumar Singh, NIT Manipur, India
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Rashmi Dutta Baruah, IIT Guahati, India
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr.Tanupriya Choudhury, Amity University
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof (Dr.) Basabi Chakraborty, Professor, Iwate Prefectural
+                  University, Japan
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr.ParthaPratim Roy, IIT Roorkee, India
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr.Dac-Nhuong Le, Haiphong University, Vietnam
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr.Shampa Sengupta, Makaut, India
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. Tanushyam, TCS Research and Innovations, India
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. Tathagata Roy Chowdhury, Jharkhand Institute of
+                  Technology, India
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. Panchanan Pramanik, GLA University, Mathura
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Tarini Kumar Dutta, Gauhati University
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Rita Choudhury, Gauhati University
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Debasish Bhattacharjee, Gauhati University
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr.Somenath Sarkar, University of Calcutta
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Debasish De, Maulana Abul Kalam Azad University of
+                  Technology<span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Ram Sarkar, Jadavpur University
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Chintan Kumar Mandal, Jadavpur University
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Mr. Debraj Chatterjee, Manager ,Capegemini
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Soumya Sen, University of Calcutta
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Banani Adhikary (Das), Siliguri Institute of Technology
+                </span>
+                <span>
+                  Dr. Susanta Kumar Saha , Siliguri Institute of Technology
+                </span>
+                <span>Dr. Jayanta Dutta, Siliguri Institute of Technology</span>
+                <span>Dr. Manas Saha, , Siliguri Institute of Technology</span>
+                <span>Dr. Sudip Ghosh, , Siliguri Institute of Technology</span>
+                <span>
+                  Dr. Debasmriti Bhattacherjee , Siliguri Institute of
+                  Technology
+                </span>
+                <span>Dr. Samit Ghosh , Siliguri Institute of Technology</span>
+                <span
+                  >Mr .Soumendu Golui , Siliguri Institute of Technology</span
+                >
+                <span
+                  >Prof. Pinaky Bhaduri , Siliguri Institute of Technology</span
+                >
+                <span
+                  >Dr. Debajyoti Misra, Siliguri Institute of Technology</span
+                >
+                <span>
+                  Prof. Manas Kumar Parai , Siliguri Institute of Technology
+                </span>
+                <span>Prof. Dia Ghosh , Siliguri Institute of Technology</span>
+                <span>
+                  Prof. Sarmistha Mandal , Siliguri Institute of Technology
+                </span>
+                <span
+                  >Prof. Anindita Sinha, Siliguri Institute of Technology</span
+                >
+                <span>
+                  Prof. Anupam Mukherjee , Siliguri Institute of Technology
+                </span>
+                <span
+                  >Prof. Sucharita Das , Siliguri Institute of Technology</span
+                >
+                <span
+                  >Prof. Debajyoti Guha , Siliguri Institute of Technology</span
+                >
+                <span>Prof. Mithun Roy , Siliguri Institute of Technology</span>
+                <span
+                  >Prof. Moumita Ghosh , Siliguri Institute of Technology</span
+                >
+                <span>
+                  Prof. Satadal Chakraborty , Siliguri Institute of Technology
+                </span>
+                <span>
+                  Prof. Jayashree Singha , Siliguri Institute of Technology
+                </span>
+                <span>Prof. Sampa Das , Siliguri Institute of Technology</span>
+                <span>
+                  Prof.. Sutapa Bhattacharya , Siliguri Institute of Technology
+                </span>
+                <span>
+                  Prof. Krittibas Parai , Siliguri Institute of Technology
+                </span>
+                <span>
+                  Prof. Deb Sekhar Laha , Siliguri Institute of Technology
+                </span>
+                <span>Dr. Rajdip Dey , Sister Nivedita University</span>
+                <span>
+                  Prof. (Dr.) Mridula Kanoria , Sister Nivedita University
+                </span>
+                <span>
+                  Prof. (Dr.) Debashis Gangopadhyay , Sister Nivedita University
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. (Dr.) Pradip Dutta Gupta , , Sister Nivedita University
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Abhik sur , Sister Nivedita University
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. (Dr.) Mala Mitra , Sister Nivedita University
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. (Dr.) Partha sarathi joarder , Sister Nivedita
+                  University
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Tirthankar Datta , Netaji Subhas Engineering College
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Koushik Dutta , Netaji Subhas Engineering College
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. Chira Ranjan Datta , Netaji Subhas Engineering College
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Bijoy Kantha , Netaji Subhas Engineering College
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Arijit Dey , Netaji Subhas Engineering College
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Saheli Sarkhel , Netaji Subhas Engineering College
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. Niladri Shekhar Mishra , Netaji Subhas Engineering
+                  College
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. Dip Kumar Saha, Netaji Subhas Engineering College
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. Anindita Sarkar , Netaji Subhas Engineering College
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. Atrayee M Ray , Netaji Subhas Engineering College
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. Swagata Roy Chatterjee , Netaji Subhas Engineering
+                  College
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof.Aparajita Dutta Sinha, Netaji Subhas Engineering College
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. Silpi Sarkar , Netaji Subhas Engineering College
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. Swati Chakraborty, Netaji Subhas Engineering College
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. Paramita Chowdhury, Netaji Subhas Engineering College
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. Abhishek Bar , Dr. Meghnad Saha Institute Of Technology
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. Anup Sarkar , Dr. Meghnad Saha Institute Of Technology
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. Sourav Das , Dr. Meghnad Saha Institute Of Technology
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. Subhendu DeshMukh, Dr. Meghnad Saha Institute Of
+                  Technology
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Prof. Anupam Nayek, Dr. Meghnad Saha Institute Of Technology
+                  <span>&nbsp;(confirmation awaited)&nbsp;</span>
+                </span>
+                <span>
+                  Dr. Kaushik Dutta, Assistant Professor, Netaji subhash
+                  Engineering college
+                </span>
+                <span>
+                  Dr. Supriyo Dhabal, Assistant Professor, Netaji subhash
+                  Engineering college
+                </span>
+              </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <div class="about-content">
-                        <div class="about-text">
-                            <ul>
-                                <li>Dr. Bharat Bhushan, Academy Professor, The Ohio State University, Columbus, Ohio,
-                                    USA</li>
-                                <li>Dr. Lalit Garg, Senior Lecturer, Computer Information Systems, Faculty of
-                                    Information & Communication Technology</li>
-                                <li>Dr. Asit Kumar Das, Professor, Department of Computer Science and Technology, Indian
-                                    Institute of Engineering Science and Technology, Shibpur, Howrah, West Bengal, India
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr. Sudipta Chattapadhya, Mizoram University</li>
-                                <li>Dr. Debaprasad Das, Assam University</li>
-                                <li>Prof. Dr. Subindu Kumar, IIT(ISM) Dhanbad</li>
-                                <li>Dr. Ashis Sharma, Vice Chancellor, Khangchendzonga State University, Sikkim
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr. A P Singh, NIT Meghalaya <span>&nbsp;(confirmation awaited)&nbsp;</span></li>
-                                <li>Dr. Malay Kumar Das , Professor , Dept. Of Physics , N.B.U, Siliguri
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr. Sakuntala Gupta, Raiganj University College <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Prof. Susanta Sinha Roy , Shiv Nadar University <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr. Sanjib Bhattacharya, Associate professor of HRDC & Physics , University of North
-                                    Bengal. <span>&nbsp;(confirmation awaited)&nbsp;</span></li>
-                                <li>Dr. Ahmed A. Elngar, Scientific Innovation Research Group (SIRG) Director of
-                                    Technological and Informatics Studies Center Beni-Suef University, Egypt
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr. Nilanjan Dey, Techno India, India <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr .Loitongbam Suraj kumar Singh, NIT Manipur, India <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr. Rashmi Dutta Baruah, IIT Guahati, India <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr.Tanupriya Choudhury, Amity University <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Prof (Dr.) Basabi Chakraborty, Professor, Iwate Prefectural University, Japan
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr.ParthaPratim Roy, IIT Roorkee, India <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr.Dac-Nhuong Le, Haiphong University, Vietnam <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr.Shampa Sengupta, Makaut, India <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Prof. Tanushyam, TCS Research and Innovations, India <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Prof. Tathagata Roy Chowdhury, Jharkhand Institute of Technology, India
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Prof. Panchanan Pramanik, GLA University, Mathura <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr. Tarini Kumar Dutta, Gauhati University <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr. Rita Choudhury, Gauhati University <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr. Debasish Bhattacharjee, Gauhati University <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr.Somenath Sarkar, University of Calcutta <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr. Debasish De, Maulana Abul Kalam Azad University of
-                                    Technology<span>&nbsp;(confirmation awaited)&nbsp;</span></li>
-                                <li>Dr. Ram Sarkar, Jadavpur University <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr. Chintan Kumar Mandal, Jadavpur University <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Mr. Debraj Chatterjee, Manager ,Capegemini <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr. Soumya Sen, University of Calcutta <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr. Banani Adhikary (Das), Siliguri Institute of Technology</li>
-                                <li>Dr. Susanta Kumar Saha , Siliguri Institute of Technology</li>
-                                <li>Dr. Jayanta Dutta, Siliguri Institute of Technology</li>
-                                <li>Dr. Manas Saha, , Siliguri Institute of Technology</li>
-                                <li>Dr. Sudip Ghosh, , Siliguri Institute of Technology</li>
-                                <li>Dr. Debasmriti Bhattacherjee , Siliguri Institute of Technology</li>
-                                <li>Dr. Samit Ghosh , Siliguri Institute of Technology</li>
-                                <li>Mr .Soumendu Golui , Siliguri Institute of Technology</li>
-                                <li>Prof. Pinaky Bhaduri , Siliguri Institute of Technology</li>
-                                <li>Dr. Debajyoti Misra, Siliguri Institute of Technology</li>
-                                <li>Prof. Manas Kumar Parai , Siliguri Institute of Technology</li>
-                                <li>Prof. Dia Ghosh , Siliguri Institute of Technology</li>
-                                <li>Prof. Sarmistha Mandal , Siliguri Institute of Technology</li>
-                                <li>Prof. Anindita Sinha, Siliguri Institute of Technology</li>
-                                <li>Prof. Anupam Mukherjee , Siliguri Institute of Technology</li>
-                                <li>Prof. Sucharita Das , Siliguri Institute of Technology</li>
-                                <li>Prof. Debajyoti Guha , Siliguri Institute of Technology</li>
-                                <li>Prof. Mithun Roy , Siliguri Institute of Technology</li>
-                                <li>Prof. Moumita Ghosh , Siliguri Institute of Technology</li>
-                                <li>Prof. Satadal Chakraborty , Siliguri Institute of Technology</li>
-                                <li>Prof. Jayashree Singha , Siliguri Institute of Technology</li>
-                                <li>Prof. Sampa Das , Siliguri Institute of Technology</li>
-                                <li>Prof.. Sutapa Bhattacharya , Siliguri Institute of Technology</li>
-                                <li>Prof. Krittibas Parai , Siliguri Institute of Technology</li>
-                                <li>Prof. Deb Sekhar Laha , Siliguri Institute of Technology</li>
-                                <li>Dr. Rajdip Dey , Sister Nivedita University</li>
-                                <li>Prof. (Dr.) Mridula Kanoria , Sister Nivedita University</li>
-                                <li>Prof. (Dr.) Debashis Gangopadhyay , Sister Nivedita University
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Prof. (Dr.) Pradip Dutta Gupta , , Sister Nivedita University
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr. Abhik sur , Sister Nivedita University <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Prof. (Dr.) Mala Mitra , Sister Nivedita University <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Prof. (Dr.) Partha sarathi joarder , Sister Nivedita University
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr. Tirthankar Datta , Netaji Subhas Engineering College <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr. Koushik Dutta , Netaji Subhas Engineering College <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Prof. Chira Ranjan Datta , Netaji Subhas Engineering College
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr. Bijoy Kantha , Netaji Subhas Engineering College <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr. Arijit Dey , Netaji Subhas Engineering College <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Dr. Saheli Sarkhel , Netaji Subhas Engineering College <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Prof. Niladri Shekhar Mishra , Netaji Subhas Engineering College
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Prof. Dip Kumar Saha, Netaji Subhas Engineering College <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Prof. Anindita Sarkar , Netaji Subhas Engineering College <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span>
-                                </li>
-                                <li>Prof. Atrayee M Ray , Netaji Subhas Engineering College <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Prof. Swagata Roy Chatterjee , Netaji Subhas Engineering College
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Prof.Aparajita Dutta Sinha, Netaji Subhas Engineering College
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Prof. Silpi Sarkar , Netaji Subhas Engineering College <span>&nbsp;(confirmation
-                                        awaited)&nbsp;</span></li>
-                                <li>Prof. Swati Chakraborty, Netaji Subhas Engineering College
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Prof. Paramita Chowdhury, Netaji Subhas Engineering College
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Prof. Abhishek Bar , Dr. Meghnad Saha Institute Of Technology
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Prof. Anup Sarkar , Dr. Meghnad Saha Institute Of Technology
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Prof. Sourav Das , Dr. Meghnad Saha Institute Of Technology
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Prof. Subhendu DeshMukh, Dr. Meghnad Saha Institute Of Technology
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Prof. Anupam Nayek, Dr. Meghnad Saha Institute Of Technology
-                                    <span>&nbsp;(confirmation awaited)&nbsp;</span>
-                                </li>
-                                <li>Dr. Kaushik Dutta, Assistant Professor, Netaji subhash Engineering college</li>
-                                <li>Dr. Supriyo Dhabal, Assistant Professor, Netaji subhash Engineering college</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <footer id="contact">
-        <div class="container">
-            <div class="row mb-2 justify-content-center">
-                <div class="col-lg-8 col-md-12 col-xs-12">
-                    <div class="subscribe-inner wow fadeInDown" data-wow-delay="0.3s"></div>
-                    <div class="footer-logo">
-                        <img src="assets/img/logo.png" alt="logo" />
-                    </div>
-                    <div class="social-icons-footer">
-                        <ul>
-                            <li class="facebook">
-                                <a target="_blank" href="https://www.facebook.com/sittechno.org"><i
-                                        class="lni-facebook-filled"></i></a>
-                            </li>
-                            <li class="facebook">
-                                <a target="_blank" href="http://sittechno.org/"><i class="lni-website"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="site-info">
-                        <p>Siliguri Institute of Technology, Sukna, Siliguri - 734009</p>
-                    </div>
-                    <div class="site-info pt-0">
-                        <p>Contact to</p>
-                        <ul>
-                            <li class="text-white">
-                                Dr. Debajyoti Misra:
-                                <a href="tel:+919749374055">+919749374055</a> |
-                                <a href="mailto:misra.debajyoti@gmail.com">misra.debajyoti@gmail.com</a>
-                            </li>
-                            <li class="text-white">
-                                Dr. Debasmriti Bhattacharjee:
-                                <a href="tel:+918637590367">+918637590367</a> |
-                                <a href="mailto:debasmritibagdogra@gmail.com">debasmritibagdogra@gmail.com</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row mb-2 justify-content-center">
+          <div class="col-lg-8 col-md-12 col-xs-12">
+            <div
+              class="subscribe-inner wow fadeInDown"
+              data-wow-delay="0.3s"
+            ></div>
+            <div class="footer-logo">
+              <img src="assets/img/logo.png" alt="logo" />
             </div>
+            <div class="social-icons-footer">
+              <ul>
+                <li class="facebook">
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/sittechno.org"
+                    ><i class="lni-facebook-filled"></i
+                  ></a>
+                </li>
+                <li class="facebook">
+                  <a target="_blank" href="http://sittechno.org/"
+                    ><i class="lni-website"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="site-info">
+              <p>Contact to</p>
+              <ul>
+                <li class="text-white">
+                  Dr. Debajyoti Misra:
+                  <a href="tel:+919749374055">+919749374055</a> |
+                  <a href="mailto:misra.debajyoti@gmail.com"
+                    >misra.debajyoti@gmail.com</a
+                  >
+                </li>
+                <li class="text-white">
+                  Dr. Debasmriti Bhattacharjee:
+                  <a href="tel:+918637590367">+918637590367</a> |
+                  <a href="mailto:debasmritibagdogra@gmail.com"
+                    >debasmritibagdogra@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="site-info pt-0">
+              <p>Siliguri Institute of Technology, Sukna, Siliguri - 734009</p>
+            </div>
+          </div>
         </div>
+      </div>
     </footer>
 
     <a href="#" class="back-to-top">
-        <i class="lni-chevron-up"></i>
+      <i class="lni-chevron-up"></i>
     </a>
 
     <div id="preloader">
-        <div class="sk-circle">
-            <div class="sk-circle1 sk-child"></div>
-            <div class="sk-circle2 sk-child"></div>
-            <div class="sk-circle3 sk-child"></div>
-            <div class="sk-circle4 sk-child"></div>
-            <div class="sk-circle5 sk-child"></div>
-            <div class="sk-circle6 sk-child"></div>
-            <div class="sk-circle7 sk-child"></div>
-            <div class="sk-circle8 sk-child"></div>
-            <div class="sk-circle9 sk-child"></div>
-            <div class="sk-circle10 sk-child"></div>
-            <div class="sk-circle11 sk-child"></div>
-            <div class="sk-circle12 sk-child"></div>
-        </div>
+      <div class="sk-circle">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+      </div>
     </div>
 
     <script src="assets/js/jquery-min.js"></script>
@@ -458,6 +761,5 @@
     <script src="assets/js/nivo-lightbox.js"></script>
     <script src="assets/js/video.js"></script>
     <script src="assets/js/others.js"></script>
-</body>
-
+  </body>
 </html>
