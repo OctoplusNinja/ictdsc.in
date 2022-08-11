@@ -1,9 +1,7 @@
 (function ($) {
-
-  "use strict";
+  'use strict';
 
   $(window).on('load', function () {
-
     /*Page Loader active
       ========================================================*/
     $('#preloader').fadeOut();
@@ -21,27 +19,27 @@
        countdown timer
        ========================================================================== */
     jQuery('#clock').countdown('2023/3/23', function (event) {
-      var $this = jQuery(this).html(event.strftime(''
-        + '<div class="time-entry days"><span>%-D</span> <b>:</b> Days</div> '
-        + '<div class="time-entry hours"><span>%H</span> <b>:</b> Hours</div> '
-        + '<div class="time-entry minutes"><span>%M</span> <b>:</b> Minutes</div> '
-        + '<div class="time-entry seconds"><span>%S</span> Seconds</div> '));
+      var $this = jQuery(this).html(
+        event.strftime(
+          '' +
+            '<div class="time-entry days"><span>%-D</span> <b>:</b> Days</div> ' +
+            '<div class="time-entry hours"><span>%H</span> <b>:</b> Hours</div> ' +
+            '<div class="time-entry minutes"><span>%M</span> <b>:</b> Minutes</div> ' +
+            '<div class="time-entry seconds"><span>%S</span> Seconds</div> '
+        )
+      );
     });
-
-    /* Auto Close Responsive Navbar on Click
-    ========================================================*/
-    function close_toggle() {
-      if ($(window).width() <= 768) {
-        $('.navbar-collapse a').on('click', function () {
-          $('.navbar-collapse').collapse('hide');
-        });
-      }
-      else {
-        $('.navbar .navbar-inverse a').off('click');
-      }
-    }
-    close_toggle();
-    $(window).resize(close_toggle);
+    //   if ($(window).width() <= 768) {
+    //     $('.navbar-collapse a').on('click', function () {
+    //       $('.navbar-collapse').collapse('hide');
+    //     });
+    //   }
+    //   else {
+    //     $('.navbar .navbar-inverse a').off('click');
+    //   }
+    // }
+    // close_toggle();
+    // $(window).resize(close_toggle);
 
     /* WOW Scroll Spy
   ========================================================*/
@@ -55,10 +53,10 @@
     ========================================================*/
     $('.lightbox').nivoLightbox({
       effect: 'fadeScale',
-      keyboardNav: true,
+      keyboardNav: true
     });
 
-    // one page navigation 
+    // one page navigation
     $('.navbar-nav').onePageNav({
       currentClass: 'active'
     });
@@ -84,12 +82,13 @@
 
     $('.back-to-top').on('click', function (event) {
       event.preventDefault();
-      $('html, body').animate({
-        scrollTop: 0
-      }, 600);
+      $('html, body').animate(
+        {
+          scrollTop: 0
+        },
+        600
+      );
       return false;
     });
-
   });
-
-}(jQuery));
+})(jQuery);
