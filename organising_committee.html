@@ -6,7 +6,6 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>Committee | ICTDsC-2023 | SIT</title>
     <link
       rel="stylesheet"
       type="text/css"
@@ -27,6 +26,7 @@
       href="assets/img/favicon.png"
       type="image/x-icon"
     />
+    <title>Committee | ICTDsC-2023 | SIT</title>
   </head>
 
   <body>
@@ -52,19 +52,33 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
               <li class="nav-item">
-                <a class="nav-link" href="/"> Home </a>
+                <a class="nav-link" href="/index.html"> Home </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/index.html#about"> About </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/index.html#deets"> Event Details </a>
+                <a
+                  class="nav-link"
+                  href="/index.html#deets"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse.show"
+                >
+                  Event Details
+                </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/submission.html"> Submission </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#gallery"> Gallery </a>
+                <a
+                  class="nav-link"
+                  href="#"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse.show"
+                >
+                  Gallery
+                </a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -77,7 +91,11 @@
                   Committee
                 </a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="/organising_committee.html"
+                  <a
+                    class="dropdown-item"
+                    href="#committee"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse.show"
                     >Organising Committee</a
                   >
                   <a class="dropdown-item" href="/advisory_committee.html"
@@ -86,7 +104,14 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact"> Contact </a>
+                <a
+                  class="nav-link"
+                  href="#contact"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse.show"
+                >
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
@@ -102,7 +127,7 @@
                 <h2 class="head-title">ORGANIZING COMMITTEE</h2>
                 <ul>
                   <li>
-                    <a class="active" href="/">Home</a>
+                    <a href="/">Home</a>
                   </li>
                   //
                   <li>Organizing Committee</li>
@@ -390,6 +415,6 @@
     <script src="assets/js/wow.js"></script>
     <script src="assets/js/nivo-lightbox.js"></script>
     <script src="assets/js/video.js"></script>
-    <script src="assets/js/others.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

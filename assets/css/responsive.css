@@ -1,5 +1,10 @@
 /* only small desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
+  /* .navbar .container {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  } */
+
   #hero-area .contents .head-title {
     font-size: 40px;
   }
@@ -25,6 +30,10 @@
 
 /* tablets */
 @media (max-width: 991px) {
+  .section-padding {
+    padding: 30px 0;
+  }
+
   .page-title-section {
     padding: 40px 0;
   }
@@ -58,6 +67,11 @@
 
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
+  .navbar .container {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
   #hero-area .contents .head-title {
     font-size: 36px;
   }
@@ -117,6 +131,11 @@
 
 /* mobile or only mobile */
 @media (max-width: 767px) {
+  .navbar .container {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
   .section-title {
     font-size: 22px;
   }
