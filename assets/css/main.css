@@ -601,10 +601,11 @@ a.back-to-top:focus {
 .navbar-brand {
   position: relative;
   padding: 0px;
+  margin-right: 0.5rem;
 }
 
 .navbar-brand img {
-  width: 75%;
+  width: 75px;
 }
 
 .dropdown-toggle::after {
@@ -1599,4 +1600,8 @@ footer {
   font-size: 16px;
   padding: 12px 40px;
   text-transform: uppercase;
+}
+
+.conf-awaited{
+  background-color: #f5c367;
 }
