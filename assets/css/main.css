@@ -1605,3 +1605,8 @@ footer {
 .conf-awaited{
   background-color: #f5c367;
 }
+
+.team-img img{
+  width: 200px;
+  height: 200px;
+}
