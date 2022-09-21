@@ -81,7 +81,9 @@ ol li {
   line-height: 70px;
   letter-spacing: 0.1rem;
 }
-
+/* .navbar-brand img{
+  border-radius: 50%;
+} */
 .hero-sub-heading {
   font-size: 20px;
   font-weight: 400;
