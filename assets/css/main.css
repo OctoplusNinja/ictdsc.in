@@ -916,13 +916,41 @@ a.back-to-top:focus {
   -webkit-animation-name: fadeInUpMenu;
   animation-name: fadeInUpMenu;
 }
-
+#sitlogo
+{
+  margin-left: -60px;
+}
+#conflogo
+{
+  margin-left: 5cm;
+}
+@media (max-width:700px) {
+  #sitlogo
+  {
+    margin-left: 30px;
+  }
+  #conflogo
+  {
+    margin-left: 30px;
+  }
+  table, th, td ,tr {
+    width: 100%;
+    max-width: 600px!important;
+    height: auto;
+    font-size: 10px;
+  }
+  strong
+  {
+    font-size: 10px!important;
+  }
+}
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   .bg-inverse {
     background: #fff !important;
     box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
   }
+  
   .navbar-expand-lg .navbar-brand,
   .navbar-expand-lg .navbar-toggler {
     margin: 0px 15px;
