@@ -922,18 +922,34 @@ a.back-to-top:focus {
 {
   margin-left: -60px;
 }
+#technologo
+{
+  margin-left: 2cm;
+}
 #conflogo
 {
-  margin-left: 5cm;
+  margin-left: 3cm;
 }
 @media (max-width:700px) {
   #sitlogo
   {
-    margin-left: 30px;
+    margin-left: 0px;
+  }
+  .banner-info
+  {
+    margin-top: 20%;
+  }
+  #technologo
+  {
+    margin-left: 0px;
+    max-width: 60px;
+    max-height: 60px;
   }
   #conflogo
   {
-    margin-left: 30px;
+    margin-left: 0px;
+    max-width: 60px;
+    max-height: 60px;
   }
   table, th, td ,tr {
     width: 100%;
