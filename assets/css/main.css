@@ -891,7 +891,11 @@ a.back-to-top:focus {
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
 } */
-
+.info-text h3
+{
+  font-size:25px;
+  margin-top: 10px;
+}
 .dropdown .dropdown-menu .dropdown-item:last-child {
   border-bottom: none;
   border-bottom-left-radius: 4px;
