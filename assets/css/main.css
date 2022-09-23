@@ -938,22 +938,23 @@ a.back-to-top:focus {
   #sitlogo
   {
     margin-left: 0px;
+    width: 160px!important;
   }
   .banner-info
   {
     margin-top: 20%;
   }
-  #technologo
+  /* #technologo
   {
     margin-left: 0px;
     max-width: 60px;
     max-height: 60px;
-  }
+  } */
   #conflogo
   {
     margin-left: 0px;
-    max-width: 60px;
-    max-height: 60px;
+    width: 90px!important;
+    height: 120px!important;
   }
   table, th, td ,tr {
     width: 100%;
@@ -1619,7 +1620,7 @@ footer {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(62, 61, 61, 0.7);
 }
 
 #hero-area .contents {
