@@ -17,6 +17,16 @@
 html {
   overflow-x: hidden;
 }
+.springerlogofix
+{
+  width: 100%;
+  height: auto;
+  max-height:fit-content;
+  max-width: 500px;
+  min-width: 200px;
+  min-height: 200px;
+  margin-bottom: 20px;
+}
 #floatingspringer
 {
   background:white;
