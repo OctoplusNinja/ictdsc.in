@@ -22,8 +22,8 @@ html {
   width: 100%;
   height: auto;
   max-height:fit-content;
-  max-width: 500px;
-  min-width: 200px;
+  max-width: 200px;
+  min-width: 100px;
   min-height: 150px;
   margin-bottom: 20px;
 }
