@@ -942,7 +942,7 @@ a.back-to-top:focus {
 }
 #sitlogo
 {
-  margin-left: -60px;
+  margin-left: -4cm!important;
 }
 #technologo
 {
@@ -950,7 +950,17 @@ a.back-to-top:focus {
 }
 #conflogo
 {
-  margin-left: 3cm;
+  margin-left: 2cm!important;
+}
+@media (max-width:962px) {
+  #sitlogo
+  {
+    margin-left: 0px!important;
+  }
+  #conflogo
+  {
+    margin-left: 10px!important;
+  }
 }
 @media (max-width:700px) {
   #sitlogo
