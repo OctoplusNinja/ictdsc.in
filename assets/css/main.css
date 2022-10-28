@@ -930,7 +930,13 @@ a.back-to-top:focus {
 .dropdown .dropdown-item.active {
   color: #ff4a67;
 }
-
+#carousal-img
+{
+  width: 90%;
+  height: auto;
+  padding: 30px;
+  max-height: 100vh;
+}
 /* .dropdown-item.active,
 .dropdown-item:active {
   background: transparent;
