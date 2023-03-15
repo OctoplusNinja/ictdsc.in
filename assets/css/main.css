@@ -5,6 +5,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+@media screen and (max-width: 768px) {
+  body
+  {
+    overflow-x: scroll!important;
+  }
+}
 #floatingspringerflags
 {
   background:#ff4a67;
