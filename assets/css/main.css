@@ -11,6 +11,14 @@
     overflow-x: scroll!important;
   }
 }
+@media screen and (max-width: 962px) {
+  .banner-btn
+  {
+   display: flex!important;
+   flex-direction: column!important;
+   float: left!important;
+  }
+}
 #floatingspringerflags
 {
   background:#ff4a67;
