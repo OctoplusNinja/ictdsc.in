@@ -1,0 +1,95 @@
+.hero-area-bg-committee {
+  background: url(../img/background/committee.jpg) no-repeat;
+  background-size: cover;
+}
+
+.hero-area-bg-submission {
+  background: url(https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80) no-repeat;
+  background-size: cover;
+}
+#hero-area .content {
+  padding: 160px 20px 160px;
+  height: 350px;
+}
+
+#hero-area .content .head-title {
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 0.3rem;
+}
+
+ul {
+  list-style: outside none none;
+}
+
+ul a {
+  color: #fff;
+}
+
+ul a:hover {
+  color: #ff4a67;
+}
+
+ul li {
+  display: inline-block;
+  color: #ff4a67;
+}
+
+.about-content .about-text span {
+  font-size: 17px;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.about-content .about-text ul li span {
+  display: inline-block;
+  background-color: #f5c367;
+}
+
+.about-content .about-text ul li {
+  color: #212121;
+  font-size: 17px;
+  margin-bottom: 4px;
+  list-style-type: disc;
+  display: list-item;
+  text-transform: capitalize;
+}
+
+.about-content .about-text ul {
+  list-style-type: disc;
+}
+
+.about-content .about-text span span,
+.about-content .about-text ul span {
+  font-size: 17px;
+  display: inline-block;
+  text-transform: lowercase;
+}
+
+#committee .row .text-res {
+  text-align: right;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+@media (max-width: 991px) {
+  #committee .row .text-res {
+    text-align: left;
+  }
+}
+
+#submission .container h5 {
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+#submission .container p {
+  font-size: 1.125rem;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 10px;
+}
