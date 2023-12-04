@@ -1657,7 +1657,7 @@ footer {
 3. Hero Area
 ========================================================================== */
 .hero-area-bg {
-  background: url(https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80) no-repeat;
+  background: url("https://www.sittechno.org/flashphotos/photos/a82abf2114cd06cc931b6457367bdee1.jpg") center;
   background-size: cover;
 }
 
@@ -1697,11 +1697,11 @@ footer {
   font-style: italic;
   margin-bottom: 22px;
   line-height: 24px;
-  color: #fff;
+  color: black;
 }
 
 #hero-area .contents .head-title {
-  color: #fff;
+  color:white;
   font-size: 3rem;
   text-transform: uppercase;
   font-weight: 700;
