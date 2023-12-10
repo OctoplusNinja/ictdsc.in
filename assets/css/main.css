@@ -1663,6 +1663,7 @@ footer {
 .hero-area-bg {
   background: url("https://www.sittechno.org/flashphotos/photos/a82abf2114cd06cc931b6457367bdee1.jpg") center;
   background-size: cover;
+  opacity: 70%;
 }
 
 #hero-area {
