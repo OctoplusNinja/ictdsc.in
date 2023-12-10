@@ -1706,7 +1706,6 @@ footer {
 }
 
 #hero-area .contents .head-title {
-  color:lime;
   font-size: 3rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -1716,7 +1715,7 @@ footer {
 #hero-area .contents .banner-desc {
   font-size: 17px;
   font-weight: 400;
-  color: #fff;
+  color: black;
   margin-bottom: 30px;
   padding: 0px 70px;
 }
@@ -1737,6 +1736,7 @@ footer {
   height: 200px;
 }
 .extra{
-  background-color: blue;
+  background-color:aquamarine;
   display:inline;
+  color: black;
 }
